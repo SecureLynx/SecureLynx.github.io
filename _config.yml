@@ -1,0 +1,22 @@
+title: "Your Name | Penetration Tester"
+description: "Offensive security write-ups, projects, and research."
+theme: minima
+
+# Minima theme options
+minima:
+  skin: dark
+
+# Collections let us list write-ups automatically
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "writeups"
+    values:
+      layout: "writeup"
+
+markdown: kramdown
