@@ -20,5 +20,5 @@ I'm an aspiring penetration tester with a background in Information Security, Ne
 ## Contact
 
 - GitHub: https://github.com/SecureLynx
-- LinkedIn: linkedin.com/in/emmanuel-baffoe-4878b4206
+- LinkedIn: https://www.linkedin.com/in/emmanuel-baffoe-4878b4206/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9lUvT6%2FSTneUGsNbvsw6ZQ%3D%3D
 - Email: kwsbaffoe@gmail.com
