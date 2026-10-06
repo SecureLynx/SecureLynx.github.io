@@ -9,8 +9,9 @@ I'm an aspiring penetration tester with a background in Information Security, Ne
 
 ## What you'll find here
 
-**[Write-ups](/writeups/)** - Full technical reports from labs, CTFs, and research, each with scope, methodology, findings, and remediation
-**[Projects](/projects/)** - Tools I've built and larger engagements I've documented end-to-end
+**[Write-ups](/writeups/)** - Full technical reports from labs, CTFs, and research, each with scope, methodology, findings, and remediation.
+
+**[Projects](/projects/)** - Tools I've built and larger engagements I've documented end-to-end.
 
 ## Currently working on
 
@@ -20,5 +21,5 @@ I'm an aspiring penetration tester with a background in Information Security, Ne
 ## Contact
 
 - GitHub: https://github.com/SecureLynx
-- LinkedIn: https://www.linkedin.com/in/emmanuel-baffoe-4878b4206/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9lUvT6%2FSTneUGsNbvsw6ZQ%3D%3D
+- LinkedIn: https://www.linkedin.com/in/emmanuel-baffoe-4878b4206/
 - Email: kwsbaffoe@gmail.com
