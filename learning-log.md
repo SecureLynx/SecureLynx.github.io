@@ -31,9 +31,9 @@ This demonstrates two real and common issues together: (1) sensitive admin funct
 **Proof Of Concept:**
 ![Figure 1: Directory enumeration via dirb](/writeups/images/offensive-security-intro/Figure 1.png)
 *Figure 1: Directory enumeration via dirb. Scanning http://fakebank.thm surfaced the undisclosed /bank-transfer endpoint, not linked anywhere in the site's visible navigation.*
-![Figure 2: Account balance prior to exploitation](/writeups/images/offensive-security-intro/Figure 2.png)
+![Figure 2: Account balance prior to exploitation](/writeups/images/offensive-security-into/Figure 2.png.png)
 *Figure 2: Account balance prior to exploitation. The FakeBank account (#8881) shows a negative balance of -$1,232.32, confirmed before accessing the unauthenticated /bank-transfer endpoint.*
-![Figure 3: Unauthenticated access to the bank-transfer endpoint](/writeups/images/offensive-security-intro/03-bank-transfer.png)
+![Figure 3: Unauthenticated access to the bank-transfer endpoint](/writeups/images/offensive-security-into/Figure 2.png)
 *Figure 3: Unauthenticated access to /bank-transfer. The admin deposit function was reachable directly by URL, with no login prompt or session check at any point.*
 ![Figure 4: Account balance after exploitation](/writeups/images/offensive-security-intro/04-balance-after.png)
 *Figure 4: Account balance after exploitation. The balance is now positive, confirming the deposit succeeded without authentication.*
