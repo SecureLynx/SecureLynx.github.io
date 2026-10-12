@@ -29,13 +29,13 @@ Nothing significant this time.
 This demonstrates two real and common issues together: (1) sensitive admin functionality hidden only through an obscure URL rather than actual authentication ("security by obscurity"), and (2) a complete lack of access control on that endpoint, allowing anyone who finds it to directly modify financial data. In a real engagement, this combination would be reported as a critical finding — missing authentication on a privileged function.
 
 **Proof Of Concept:**
-![Figure 1: Directory enumeration via dirb](/writeups/images/offensive-security-intro/Figure 1.png)
+![Figure 1: Directory enumeration via dirb](/writeups/images/offensive-security-intro/Figure-1.png)
 *Figure 1: Directory enumeration via dirb. Scanning http://fakebank.thm surfaced the undisclosed /bank-transfer endpoint, not linked anywhere in the site's visible navigation.*
-![Figure 2: Account balance prior to exploitation](/writeups/images/offensive-security-into/Figure 2.png.png)
+![Figure 2: Account balance prior to exploitation](/writeups/images/offensive-security-into/Figure-2.png.png)
 *Figure 2: Account balance prior to exploitation. The FakeBank account (#8881) shows a negative balance of -$1,232.32, confirmed before accessing the unauthenticated /bank-transfer endpoint.*
-![Figure 3: Unauthenticated access to the bank-transfer endpoint](/writeups/images/offensive-security-into/Figure 2.png)
+![Figure 3: Unauthenticated access to the bank-transfer endpoint](/writeups/images/offensive-security-into/Figure-3.png)
 *Figure 3: Unauthenticated access to /bank-transfer. The admin deposit function was reachable directly by URL, with no login prompt or session check at any point.*
-![Figure 4: Account balance after exploitation](/writeups/images/offensive-security-intro/04-balance-after.png)
+![Figure 4: Account balance after exploitation](/writeups/images/offensive-security-intro/Figure-4.png)
 *Figure 4: Account balance after exploitation. The balance is now positive, confirming the deposit succeeded without authentication.*
 
 ---
