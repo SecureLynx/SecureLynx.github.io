@@ -29,6 +29,7 @@ Nothing significant this time.
 This demonstrates two real and common issues together: (1) sensitive admin functionality hidden only through an obscure URL rather than actual authentication ("security by obscurity"), and (2) a complete lack of access control on that endpoint, allowing anyone who finds it to directly modify financial data. In a real engagement, this combination would be reported as a critical finding — missing authentication on a privileged function.
 
 **Proof Of Concept:**
+
 ![Figure 1: Directory enumeration via dirb](writeups/images/offensive-security-into/Figure-1.png)
 *Figure 1: Directory enumeration via dirb. Scanning http://fakebank.thm surfaced the undisclosed /bank-transfer endpoint, not linked anywhere in the site's visible navigation.*
 
