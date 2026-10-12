@@ -35,7 +35,7 @@ This demonstrates two real and common issues together: (1) sensitive admin funct
 *Figure 2: Account balance prior to exploitation. The FakeBank account (#8881) shows a negative balance of -$1,232.32, confirmed before accessing the unauthenticated /bank-transfer endpoint.*
 ![Figure 3: Unauthenticated access to the bank-transfer endpoint](/writeups/images/offensive-security-into/Figure-3.png)
 *Figure 3: Unauthenticated access to /bank-transfer. The admin deposit function was reachable directly by URL, with no login prompt or session check at any point.*
-![Figure 4: Account balance after exploitation](/writeups/images/offensive-security-intro/Figure-4.png)
+![Figure 4: Account balance after exploitation](writeups/images/offensive-security-into/Figure-4.png)
 *Figure 4: Account balance after exploitation. The balance is now positive, confirming the deposit succeeded without authentication.*
 
 ---
